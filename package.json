@@ -1,0 +1,13 @@
+{
+  "name": "openwebui-copilot-bridge",
+  "version": "1.0.0",
+  "description": "Bridge between Open WebUI and VS Code Copilot",
+  "main": "webhook-middleware.js",
+  "scripts": {
+    "start": "node webhook-middleware.js",
+    "monitor": "node copilot-monitor.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
